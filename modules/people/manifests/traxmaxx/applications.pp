@@ -23,7 +23,7 @@ class people::traxmaxx::applications {
     enable_cli => true,
     make_default => false
   }
-2
+
   class { 'vmware_fusion':
     version => '7.1.0-2314774'
   }
