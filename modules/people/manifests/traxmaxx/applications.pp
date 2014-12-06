@@ -16,16 +16,16 @@ class people::traxmaxx::applications {
 
   class { 'intellij':
   	edition => 'ultimate',
-    version => '13.1.4'
+    version => '14.0.1'
 	}
 
   class { 'kaleidoscope':
     enable_cli => true,
     make_default => false
   }
-
+2
   class { 'vmware_fusion':
-    version => '7.0.0-2103067'
+    version => '7.1.0-2314774'
   }
 
   # Homebrew Package
