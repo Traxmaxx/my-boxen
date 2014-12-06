@@ -60,15 +60,10 @@ node default {
     fail('Please enable full disk encryption and try again')
   }
 
-<<<<<<< HEAD
-  # default node versions
-  include nodejs::v0_10
-=======
   # node versions
   nodejs::version { 'v0.6': }
   nodejs::version { 'v0.8': }
   nodejs::version { 'v0.10': }
->>>>>>> a587795a1913b9dc09ee58619d9f61659e25ff9f
 
   # default npm modules
   nodejs::module { 'bower':
